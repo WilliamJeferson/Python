@@ -1,0 +1,13 @@
+print('====== Número Primo =======')
+def is_prime(nums):
+	if nums < 2
+		return 'O numero não é primo'
+	for i in range(int(2)), nums):
+		if not nums % i:
+			return 'O numero não é primo'
+	else:
+		return 'O numero é primo'
+
+for j i range(1, 101):
+	print j, is_prime(j)
+print('==========================')
