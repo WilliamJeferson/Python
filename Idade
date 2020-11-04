@@ -1,4 +1,4 @@
-print('==================== Atividade 01 ===================')
+print('====================== Idade =========================')
 ano = int(input('Quantos anos você tem? '))
 dias=ano*365
 meses=ano*12
