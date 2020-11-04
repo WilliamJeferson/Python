@@ -1,0 +1,14 @@
+print('=========Menor Valor============')
+a = int(input('Informe o primeiro numero: '))
+b = int(input('Informe o segundo numero: '))
+c = int(input('Informe o terceiro numero: '))
+
+if  (a < b) and (a < c):
+    print('O numero {} é o menor'.format(a))
+elif    (b < a) and (b < c):
+    print('O numero {} é o menor'.format(b))
+elif    (c < a) and (c < b):
+    print('O numero {} é o menor'.format(c))
+else:
+    print ('Erro, possui valores iguais')
+print('================================')
