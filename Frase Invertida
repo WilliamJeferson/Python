@@ -1,4 +1,4 @@
-print('================ Inverter a Frase ================')
+print('================ Frase Invertida =================')
 def fraseInvert(frase):
 
     invert = frase.split()
