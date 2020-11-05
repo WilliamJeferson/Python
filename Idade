@@ -1,6 +1,7 @@
-print('====================== Idade =========================')
+print('======================= Idade =======================')
 ano = int(input('Quantos anos você tem? '))
 dias=ano*365
 meses=ano*12
-print ('Você possui',ano,'anos a',dias,'dias ou a',meses,'meses.')
+print ('Você possui {} anos a {} dias ou a {} meses.'.format(ano,dias,meses))
 print ('=====================================================')
+
