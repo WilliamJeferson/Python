@@ -1,0 +1,13 @@
+print('================ Inverter a Frase ================')
+def fraseInvert(frase):
+
+    invert = frase.split()
+    for i in range(len(invert)):
+        invert[i] = invert[i][::-1]
+    return ' '.join(invert)
+
+
+frase = 'Trabalho ciclo 2, atividade 5.'
+print ('Frase atual:',frase)
+print ('Frase Invertida:',fraseInvert(frase))
+print('==================================================')
